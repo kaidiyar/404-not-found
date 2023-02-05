@@ -13,7 +13,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://404-not-found-kaidiyar.netlify.app">
+    <a href="https://kaidiyar-404-not-found.netlify.app">
       Solution
     </a>
     <span> | </span>
