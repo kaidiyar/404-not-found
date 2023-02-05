@@ -1,0 +1,199 @@
+/*
+
+--- 01 TYPOGRAPHY SYSTEM
+
+-Font sizes (px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-Font weights:
+Default: 400
+Medium: 500
+Semi-Bold: 600
+Bold: 700
+
+
+-Line heights:
+Default: 1
+Small: 1.05
+Medium: 1.2
+Paragraph defau1t: 1.6
+Large: 1.8
+
+-Letter-spacing
+-0.5px
+0.75px
+
+--- 02 COLORS
+
+-Primary: 
+
+-Tints : 
+-Shades : 
+-Accents:
+-Greys: #333, #4f4f4f, #bdbdbd
+
+(Unsplash for images in high quality)
+(UI faces for face icons)
+
+--- 05 SHADOWS
+
+
+--- 06 BORDER-RADIUS
+
+
+--- 07 WHITESPACE
+
+-SPACING SYSTEM (px) :
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* Inter is one of the best for start-up personality */
+body {
+  font-family: "Space Mono", sans-serif;
+  list-style: 1;
+  font-weight: 400;
+  color: #333;
+  width: 144rem;
+  height: 108rem;
+}
+
+header {
+  position: absolute;
+  top: 4rem;
+  left: 7.7rem;
+}
+
+.not-found {
+  font-family: "Inconsolata", sans-serif;
+  font-size: 2.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.scarecrow {
+  height: 414.25px;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+
+.bad-news {
+  font-size: 6.4rem;
+  font-weight: 700;
+  position: absolute;
+  top: 26.5rem;
+  left: 73.5rem;
+}
+
+.message {
+  font-size: 2.4rem;
+  font-weight: 500;
+  width: 38.4rem;
+  position: absolute;
+  top: 49.1rem;
+  left: 73.6rem;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  /* TEXT */
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: inherit;
+  font-weight: 500;
+  /* BUTTON */
+  padding: 2.4rem 4.3rem;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  background-color: #333;
+  transition: all 0.3s;
+
+  /* POSITION */
+  position: absolute;
+  left: 74rem;
+  top: 66.3rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #555;
+}
+
+.btn-text {
+  color: #fff;
+}
+
+.copyright {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #bdbdbd;
+  position: absolute;
+  top: 103.9rem;
+  left: 57.7rem;
+}
+
+.strong {
+  font-weight: 700;
+}
+
+@media (max-width: 24em) {
+  html {
+    font-size: 62.5%;
+  }
+
+  header {
+    position: absolute;
+    top: 2rem;
+    left: 2.4rem;
+  }
+
+  .scarecrow {
+    position: absolute;
+    height: 22rem;
+    top: 11.5%;
+    left: 11.75%;
+  }
+
+  .bad-news {
+    font-size: 4.8rem;
+    position: absolute;
+    left: 2.4rem;
+    top: 40.7rem;
+    letter-spacing: -0.035em;
+  }
+
+  .message {
+    display: block;
+    font-size: 1.8rem;
+    position: absolute;
+    left: 2.4rem;
+    top: 57.9rem;
+    letter-spacing: -0.035em;
+    width: 32.8rem;
+  }
+
+  .btn {
+    position: absolute;
+    left: 2.4rem;
+    top: 75rem;
+  }
+  .copyright {
+    position: absolute;
+    left: 4.6rem;
+    top: 90.8rem;
+  }
+}
